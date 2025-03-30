@@ -200,9 +200,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-!npm install localtunnel
-
-!streamlit run /content/app.py &>/content/logs.txt &
-
-!npx localtunnel --port 8501
